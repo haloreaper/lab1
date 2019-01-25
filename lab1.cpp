@@ -275,7 +275,7 @@ void movement()
 	    p->s.center.x > s->center.x - s->width &&
 	    p->s.center.x < s->center.x + s->width) {
 
-	    p->velocity.y = .10*-p->velocity.y;
+	    p->velocity.y = .5*-p->velocity.y;
 	}
 	
 
